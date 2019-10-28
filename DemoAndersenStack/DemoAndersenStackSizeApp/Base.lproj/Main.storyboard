@@ -740,7 +740,7 @@
                                 </variation>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bCv-hk-Qx1">
-                                <rect key="frame" x="308" y="66" width="558" height="190"/>
+                                <rect key="frame" x="308" y="66" width="553" height="190"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="jMQ-T7-h7Z"/>
@@ -777,7 +777,7 @@
                             <constraint firstItem="dBb-Oe-Xhd" firstAttribute="top" secondItem="bCv-hk-Qx1" secondAttribute="bottom" constant="4" id="6qO-h5-Of0"/>
                             <constraint firstItem="fVN-oT-r5b" firstAttribute="top" secondItem="Ovy-Yz-daR" secondAttribute="top" id="8Ea-u0-yEw"/>
                             <constraint firstItem="2dC-TG-y4p" firstAttribute="top" secondItem="kg3-Bk-q3i" secondAttribute="bottom" constant="8" id="9MQ-s7-uUh"/>
-                            <constraint firstAttribute="trailing" secondItem="bCv-hk-Qx1" secondAttribute="trailing" constant="30" id="AxV-fz-HUk"/>
+                            <constraint firstAttribute="trailing" secondItem="bCv-hk-Qx1" secondAttribute="trailing" constant="35" id="AxV-fz-HUk"/>
                             <constraint firstItem="kg3-Bk-q3i" firstAttribute="top" secondItem="fVN-oT-r5b" secondAttribute="bottom" constant="20" id="AyZ-Pn-JHb"/>
                             <constraint firstItem="fVN-oT-r5b" firstAttribute="top" secondItem="Ovy-Yz-daR" secondAttribute="top" constant="20" id="BW5-Qk-SBX"/>
                             <constraint firstItem="1qc-jf-HEb" firstAttribute="width" secondItem="Ovy-Yz-daR" secondAttribute="width" multiplier="0.8" id="CIP-I1-fKM"/>
