@@ -58,8 +58,8 @@
 		845FAD982366F18E00ECB5BD /* DemoAndersenStackSizeApp */ = {
 			isa = PBXGroup;
 			children = (
-				845FAD992366F18E00ECB5BD /* AppDelegate.swift */,
 				845FAD9B2366F18E00ECB5BD /* SceneDelegate.swift */,
+				845FAD992366F18E00ECB5BD /* AppDelegate.swift */,
 				845FAD9D2366F18E00ECB5BD /* ViewController.swift */,
 				845FAD9F2366F18E00ECB5BD /* Main.storyboard */,
 				845FADA52366F19600ECB5BD /* Assets.xcassets */,
