@@ -11,7 +11,6 @@
 		845FAD9C2366F18E00ECB5BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FAD9B2366F18E00ECB5BD /* SceneDelegate.swift */; };
 		845FAD9E2366F18E00ECB5BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FAD9D2366F18E00ECB5BD /* ViewController.swift */; };
 		845FADA12366F18E00ECB5BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845FAD9F2366F18E00ECB5BD /* Main.storyboard */; };
-		845FADA42366F18E00ECB5BD /* DemoAndersenStackSizeApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 845FADA22366F18E00ECB5BD /* DemoAndersenStackSizeApp.xcdatamodeld */; };
 		845FADA62366F19600ECB5BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845FADA52366F19600ECB5BD /* Assets.xcassets */; };
 		845FADA92366F19600ECB5BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845FADA72366F19600ECB5BD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -26,6 +25,8 @@
 		845FADA52366F19600ECB5BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		845FADA82366F19600ECB5BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		845FADAA2366F19600ECB5BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846E72B323683706002FA54F /* AssociatedType.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AssociatedType.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		84E990EB23684E8400B30810 /* Coffee.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Coffee.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		845FAD982366F18E00ECB5BD /* DemoAndersenStackSizeApp */ = {
 			isa = PBXGroup;
 			children = (
+				846E72B023682CF6002FA54F /* GenericProtocol */,
 				845FAD9B2366F18E00ECB5BD /* SceneDelegate.swift */,
 				845FAD992366F18E00ECB5BD /* AppDelegate.swift */,
 				845FAD9D2366F18E00ECB5BD /* ViewController.swift */,
@@ -68,6 +70,15 @@
 				845FADA22366F18E00ECB5BD /* DemoAndersenStackSizeApp.xcdatamodeld */,
 			);
 			path = DemoAndersenStackSizeApp;
+			sourceTree = "<group>";
+		};
+		846E72B023682CF6002FA54F /* GenericProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				846E72B323683706002FA54F /* AssociatedType.playground */,
+				84E990EB23684E8400B30810 /* Coffee.playground */,
+			);
+			path = GenericProtocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +152,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845FADA42366F18E00ECB5BD /* DemoAndersenStackSizeApp.xcdatamodeld in Sources */,
 				845FAD9E2366F18E00ECB5BD /* ViewController.swift in Sources */,
 				845FAD9A2366F18E00ECB5BD /* AppDelegate.swift in Sources */,
 				845FAD9C2366F18E00ECB5BD /* SceneDelegate.swift in Sources */,
