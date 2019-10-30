@@ -22,7 +22,7 @@ class CategoryScreen<T: Item>: Screen {
 }
 
 class DetailScreen<T: Item>: Screen {
-    var items: [T]()
+    var items = [T]()
     var childScreen = [DetailScreen<T>]()
 }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8442A41B2368857100F96695 /* TapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8442A41A2368857100F96695 /* TapButton.swift */; };
+		84469F2F23696F8300512C8E /* KVOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84469F2E23696F8300512C8E /* KVOViewController.swift */; };
 		845FAD9A2366F18E00ECB5BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FAD992366F18E00ECB5BD /* AppDelegate.swift */; };
 		845FAD9C2366F18E00ECB5BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FAD9B2366F18E00ECB5BD /* SceneDelegate.swift */; };
 		845FAD9E2366F18E00ECB5BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FAD9D2366F18E00ECB5BD /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8442A41A2368857100F96695 /* TapButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapButton.swift; sourceTree = "<group>"; };
+		84469F2E23696F8300512C8E /* KVOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVOViewController.swift; sourceTree = "<group>"; };
 		845FAD962366F18E00ECB5BD /* DemoAndersenStackSizeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAndersenStackSizeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845FAD992366F18E00ECB5BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		845FAD9B2366F18E00ECB5BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84469F2D23696F5C00512C8E /* KVOKVC */ = {
+			isa = PBXGroup;
+			children = (
+				84469F2E23696F8300512C8E /* KVOViewController.swift */,
+			);
+			path = KVOKVC;
+			sourceTree = "<group>";
+		};
 		845FAD8D2366F18E00ECB5BD = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +71,8 @@
 		845FAD982366F18E00ECB5BD /* DemoAndersenStackSizeApp */ = {
 			isa = PBXGroup;
 			children = (
+				84469F2D23696F5C00512C8E /* KVOKVC */,
+				8442A41A2368857100F96695 /* TapButton.swift */,
 				846E72B023682CF6002FA54F /* GenericProtocol */,
 				845FAD9B2366F18E00ECB5BD /* SceneDelegate.swift */,
 				845FAD992366F18E00ECB5BD /* AppDelegate.swift */,
@@ -155,6 +169,8 @@
 				845FAD9E2366F18E00ECB5BD /* ViewController.swift in Sources */,
 				845FAD9A2366F18E00ECB5BD /* AppDelegate.swift in Sources */,
 				845FAD9C2366F18E00ECB5BD /* SceneDelegate.swift in Sources */,
+				84469F2F23696F8300512C8E /* KVOViewController.swift in Sources */,
+				8442A41B2368857100F96695 /* TapButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
