@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="f57-9F-Dz7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="H2T-Hc-MLP">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
@@ -890,10 +890,75 @@
             </objects>
             <point key="canvasLocation" x="1206.6964285714284" y="114.49275362318842"/>
         </scene>
+        <!--Local Notification View Controller-->
+        <scene sceneID="fEA-fr-aEO">
+            <objects>
+                <viewController storyboardIdentifier="LocalNotificationViewController" id="H2T-Hc-MLP" customClass="LocalNotificationViewController" customModule="DemoAndersenStackSizeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bNP-M2-9lV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2BL-Rf-Jtp">
+                                <rect key="frame" x="157" y="398" width="100" height="100"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="N78-VZ-RqJ"/>
+                                    <constraint firstAttribute="width" constant="100" id="RrV-hy-fDI"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="didTapLocalNotification:" destination="H2T-Hc-MLP" eventType="touchUpInside" id="DXr-Kj-fUS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="2BL-Rf-Jtp" firstAttribute="centerX" secondItem="bNP-M2-9lV" secondAttribute="centerX" id="StU-gD-Yzf"/>
+                            <constraint firstItem="2BL-Rf-Jtp" firstAttribute="centerY" secondItem="bNP-M2-9lV" secondAttribute="centerY" id="vXc-Fc-muF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="IuE-c0-rNy"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DMc-kg-5dh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="221.73913043478262" y="-587.27678571428567"/>
+        </scene>
+        <!--Local Push View Controller-->
+        <scene sceneID="e1V-t9-9eu">
+            <objects>
+                <viewController storyboardIdentifier="LocalPushViewController" id="OsH-jT-gPs" customClass="LocalPushViewController" customModule="DemoAndersenStackSizeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oVr-UB-19l">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uoP-Bk-uc7">
+                                <rect key="frame" x="147" y="774" width="120" height="40"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="HvB-G8-fa2"/>
+                                    <constraint firstAttribute="width" constant="120" id="Ipb-J4-W1f"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="didTapPushNotification:" destination="OsH-jT-gPs" eventType="touchUpInside" id="VPH-0a-R6z"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="uoP-Bk-uc7" firstAttribute="centerX" secondItem="oVr-UB-19l" secondAttribute="centerX" id="ILr-g4-6R2"/>
+                            <constraint firstItem="yDo-xc-dB7" firstAttribute="bottom" secondItem="uoP-Bk-uc7" secondAttribute="bottom" constant="48" id="Ph8-R5-dnA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yDo-xc-dB7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C9c-0R-gaD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1242" y="-587"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="GRW-E6-hI1">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OBx-tK-JvM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="KVOViewController" id="f57-9F-Dz7" customClass="KVOViewController" customModule="DemoAndersenStackSizeApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gEK-8R-UgY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -932,6 +997,7 @@
                         <outlet property="outsideView" destination="hWe-8D-zil" id="zPl-D9-Cp7"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OBx-tK-JvM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2393" y="-586"/>
         </scene>

@@ -14,19 +14,19 @@ protocol Persistable {
 }
 
 //struct TaskDataSource: Persistable {
-////    func create(e: TaskMO) {
+////    func create(e: SomeData) {
 ////
 ////    }
 ////
-////    func read() -> [TaskMO] {
+////    func read() -> [SomeData] {
 ////        return []
 ////    }
 ////
-////    func update(e: TaskMO) {
+////    func update(e: SomeData) {
 ////
 ////    }
 ////
-////    func delete(e: TaskMO) {
+////    func delete(e: SomeData) {
 ////
 ////    }
 //}
